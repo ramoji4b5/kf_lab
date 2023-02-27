@@ -1,0 +1,8 @@
+#to run the python file :
+cmd: python kafka_poc.py
+
+#to run the kafka server:  for the place where kafka installed
+>.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+# to run the zookeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
